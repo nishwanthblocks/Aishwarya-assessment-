@@ -1,1 +1,107 @@
-# Aishwarya-assessment-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Aishwarya assessment</title>
+    <style> 
+        button { 
+            margin-bottom: 100px; /* Adjust the value as needed */ 
+        } 
+    </style> 
+    
+
+
+
+    <body>
+        <h2>Changing the Background Color when we click on button</h2>
+        <div id="BlueClr">
+           <button onclick="Blue()">
+                Blue
+                
+           </button>
+           
+           
+
+
+        <div id="RedClr">
+            <button onclick="Red()">
+                 Red
+            </button>
+
+        <div id="GreenClr">
+            <button onclick="Green()">
+                 Green
+            </button>
+
+        <div id="YellowClr">
+            <button onclick="Yellow()">
+                Yellow
+            </button>
+
+        <div id="PurpleClr">
+            <button onclick="Purple()">
+                Purple
+            </button>
+
+        <div id="pinkClr">
+            <button onclick="Pink()">
+                Pink
+            </button>
+
+        <div id="OrangeClr">
+            <button onclick="Orange()">
+                Orange
+            </button>
+
+        <div id="BrownClr">
+            <button onclick="Brown()">
+                Brown
+            </button>
+
+        <div id="BlackClr">
+            <button onclick="Black()">
+                Black
+            </button>
+
+        <div id="whiteClr">
+            <button onclick="White()">
+                White
+            </button>
+
+           <!-- Script functionality of backgroundColor property-->
+           <script>
+           function Blue() {
+              document.body.style.backgroundColor = "Blue";
+           }
+           function Red() {
+              document.body.style.backgroundColor = "Red";
+           }
+           function Green() {
+              document.body.style.backgroundColor = "Green";
+           }
+           function Yellow() {
+              document.body.style.backgroundColor = "Yellow";
+           }
+           function Purple() {
+              document.body.style.backgroundColor = "purple";
+           }
+           function Pink() {
+              document.body.style.backgroundColor = "pink";
+           }
+           function Orange() {
+              document.body.style.backgroundColor = "orange";
+           }
+           function Brown() {
+              document.body.style.backgroundColor = "Brown";
+           }
+           function Black() {
+              document.body.style.backgroundColor = "Black";
+           }
+           function White() {
+              document.body.style.backgroundColor = "White";
+           }
+           </script>
+        </div>
+     </body>
+
+ </head>
